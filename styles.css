@@ -1,0 +1,92 @@
+body {
+    background-color: #F2F0F5;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  
+  .para {
+    font-size: 1.5rem;
+  }
+  
+  input {
+    height: 3.5rem;
+    margin: 8px 6px;
+    background: #fff;
+    border-radius: 0.374rem;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+  }
+  
+  .first {
+  padding-right: 7rem;
+  margin-top: 4.4rem;
+  }
+  
+  
+  .first-button {
+    padding:0.9rem 11rem;
+    color:#fff;
+    background-color: #0a58ca;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    font-size: 1.25rem;
+    margin: 8px 0 20px 0;
+  }
+  
+  .second-button {
+    color: #fff;
+    background-color: green;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    font-size: 1.25rem;
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 25px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    margin: 5% 0 0 11%;
+  }
+  
+  .second {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  hr {
+    width: 90%;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  
+  form {
+      background-color: #fff;
+      border-radius: 15px;
+      width: 85%;
+    }
+  
+    .paraa {
+      margin-top: 30px;
+      margin-right: 4rem;
+    }
+  
+    @media (max-width: 992px) {
+      .wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+      }
+      
+      form {
+        width: 100%;
+      }
+  }
+  Footer
+  
+  
